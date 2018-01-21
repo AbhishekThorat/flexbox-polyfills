@@ -1,5 +1,5 @@
 // Flexbox display
-exports.flexbox = function() {
+export function flexbox() {
   return `
     display: -webkit-box;
     display: -moz-box;
@@ -12,7 +12,7 @@ exports.flexbox = function() {
 // The 'flex' shorthand
 // - applies to: flex items
 // <positive-number>, initial, auto, or none
-exports.flex = function(values) {
+export function flex(values) {
   return `
     -webkit-box-flex: ${values};
     -moz-box-flex: ${values};
@@ -25,7 +25,7 @@ exports.flex = function(values) {
 // Flex Flow Direction
 // - applies to: flex containers
 // row | row-reverse | column | column-reverse
-exports.flexDirection = function(direction) {
+export function flexDirection(direction) {
   return `
     -webkit-flex-direction: ${direction};
     -moz-flex-direction: ${direction};
@@ -37,7 +37,7 @@ exports.flexDirection = function(direction) {
 // Flex Line Wrapping
 // - applies to: flex containers
 // nowrap | wrap | wrap-reverse
-exports.flexWrap = function(wrap) {
+export function flexWrap(wrap) {
   return `
     -webkit-flex-wrap: ${wrap};
     -moz-flex-wrap: ${wrap};
@@ -49,7 +49,7 @@ exports.flexWrap = function(wrap) {
 // Flex Direction and Wrap
 // - applies to: flex containers
 // <flex-direction> || <flex-wrap>
-exports.flexFlow = function(flow) {
+export function flexFlow(flow) {
   return `
     -webkit-flex-flow: ${flow};
     -moz-flex-flow: ${flow};
@@ -61,7 +61,7 @@ exports.flexFlow = function(flow) {
 // Display Order
 // - applies to: flex items
 // <integer>
-exports.order = function(val) {
+export function order(val) {
   return `
     -webkit-box-ordinal-group: ${val};
     -moz-box-ordinal-group: ${val};
@@ -74,7 +74,7 @@ exports.order = function(val) {
 // Flex grow factor
 // - applies to: flex items
 // <number>
-exports.flexGrow  = function(grow) {
+export function flexGrow(grow) {
   return `
     -webkit-flex-grow: ${grow};
     -moz-flex-grow: ${grow};
@@ -86,7 +86,7 @@ exports.flexGrow  = function(grow) {
 // Flex shrink
 // - applies to: flex item shrink factor
 // <number>
-exports.flexShrink =  function(shrink) {
+export function flexShrink(shrink) {
   return `
     -webkit-flex-shrink: ${shrink};
     -moz-flex-shrink: ${shrink};
@@ -99,7 +99,7 @@ exports.flexShrink =  function(shrink) {
 // - the initial main size of the flex item
 // - applies to: flex itemsnitial main size of the flex item
 // <width>
-exports.flexBasis = function(width) {
+export function flexBasis(width) {
   return `
     -webkit-flex-basis: ${width};
     -moz-flex-basis: ${width};
@@ -111,7 +111,7 @@ exports.flexBasis = function(width) {
 // Axis Alignment
 // - applies to: flex containers
 // flex-start | flex-end | center | space-between | space-around
-exports.justifyContent = function(justify) {
+export function justifyContent(justify) {
   return `
     -webkit-justify-content: ${justify};
     -moz-justify-content: ${justify};
@@ -124,7 +124,7 @@ exports.justifyContent = function(justify) {
 // Packing Flex Lines
 // - applies to: multi-line flex containers
 // flex-start | flex-end | center | space-between | space-around | stretch
-exports.alignContent = function(align) {
+export function alignContent(align) {
   return `
     -webkit-align-content: ${align};
     -moz-align-content: ${align};
@@ -136,7 +136,7 @@ exports.alignContent = function(align) {
 // Cross-axis Alignment
 // - applies to: flex containers
 // flex-start | flex-end | center | baseline | stretch
-exports.alignItems = function(align) {
+export function alignItems(align) {
   return `
     -webkit-align-items: ${align};
     -moz-align-items: ${align};
@@ -148,7 +148,7 @@ exports.alignItems = function(align) {
 // Cross-axis Alignment
 // - applies to: flex items
 // auto | flex-start | flex-end | center | baseline | stretch
-exports.alignSelf = function(align) {
+export function alignSelf(align) {
   return `
     -webkit-align-self: ${align};
     -moz-align-self: ${align};

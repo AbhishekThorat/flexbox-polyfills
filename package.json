@@ -1,6 +1,6 @@
 {
   "name": "flexbox-polyfills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Polyfills for flexbox",
   "repository": {
     "type": "git",
