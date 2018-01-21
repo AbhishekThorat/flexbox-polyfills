@@ -2,7 +2,7 @@
 Polyfills for flexbox
 
 ## Module version of @richardtorres314's gist
-<strong> <a href="">Click here</a> for original gist! </strong>
+<strong> <a href="https://gist.github.com/richardtorres314/26b18e12958ba418bb37993fdcbfc1bd">Click here</a> for original gist! </strong>
 ## I am using these API's in one of my ReactJs project with a combination of style components.
 
 
