@@ -1,3 +1,4 @@
+# I would suggest to use prefixer tools like autoprefixer(https://github.com/postcss/autoprefixer)
 # flexbox-polyfills
 Polyfills for flexbox
 
